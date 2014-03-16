@@ -1,7 +1,7 @@
 taist_docs
 ==========
 
-Taist docs based on [ReadtheDocs](http://readthedocs.org)
+Taist docs based on [Read the Docs](http://readthedocs.org)
 
 Read them [here](http://docs.tai.st)
 
