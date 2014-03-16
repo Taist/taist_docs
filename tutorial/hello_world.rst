@@ -1,2 +1,4 @@
 Hello, world!
 -------------
+
+.. toctree::

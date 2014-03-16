@@ -1,16 +1,16 @@
-Technology
-==========
+How it works
+============
 
-Addons
-------
+Introducing addons
+------------------
 Any enhancement to any website is called an **addon**.
-Each addon contains Javascript code, optional CSS code, and some configuration data.
+Each addon implements a single enhancement to a single web site and contains Javascript code, optional CSS code, and some configuration data.
 
 Addons are developed by users.
 Now addons code has to be stored on our server. Later we will add integration with popular code hostings.
 
-How it works
-------------
+Work order
+----------
 When you visit a web application you have active addons for, our browser extension detects it and applies corresponding addons, changing the page while it loads.
 * Addon code is executed in the scope of the page and is considered by the browser as just another piece of application code, so an addon can:
 
@@ -19,3 +19,5 @@ When you visit a web application you have active addons for, our browser extensi
   * **modify original DOM and CSS**
 
 * Also each addon gets access to :doc:`Taist API </api>` (through one more piece of Javascript code also injected to the page). It can interact with our extension, thus enabling communication with any external server, including ours, and giving lots of useful features.
+
+.. toctree::

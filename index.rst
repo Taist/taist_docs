@@ -5,10 +5,10 @@
 
 Introduction
 ============
-Taist is a browser extension with which to easily change any web application to tailor it to your specific business needs.
+Taist is a browser extension to easily change any web application to tailor it to your specific business needs.
 
-Common use cases:
------------------
+What you can do with it:
+------------------------
 * **add new features**: custom fields to existing entities, whole new entities that interact with existing ones, custom actions and workflows
 * **extend workflow** - add new steps or condition checks
 * **automate repeatedly executed tasks** - solve them with less number of human actions
@@ -17,9 +17,9 @@ Common use cases:
 How it works:
 -------------
 * Taist uses **addons** - pieces of Javascript code created by users and hosted on our server.
-* Each addon implements some changes for a specific web application or website.
-* Our browser extension applies addon to their target websites when you visit them.
-* If you need more details, please see :doc:`technology description </tutorial/technology>`
+* Each addon implements single enhancement for a specific web application or website.
+* Our browser extension applies addons to their target websites when you visit them.
+* More details :doc:`here </tutorial/how_it_works>`
 
 Why Taist
 ---------
@@ -34,14 +34,14 @@ Taist is like browser extensions on steroids:
 Quickstart
 ----------
 * First, create your :doc:`"Hello, world!" addon </tutorial/hello_world>`
-* Then turn it into real-life solution using Taist API features described in :doc:`Developer Guide </tutorial/guide>`
-* To make it easier, read our :doc:`/tutorial/Cookbook` and :doc:`Troubleshooting tips </tutorial/troubleshooting>`
+* Then turn it into real-life solution using Taist API described in :doc:`Developer Guide </guide/index>`
+* To make development easier, read our :doc:`Troubleshooting tips </guide/troubleshooting>`
 
 Support
 -------
 * Please, feel free to ask any questions, suggest new features and report bugs using `Github issues <https://github.com/Taist/taist_docs/issues>`_
 * And here are :doc:`/support/Release_notes` and :doc:`/support/Roadmap`
-* or just `write me <mailto:anton@tai.st?subject=Feedback%20on%20Taist>`_ to tell me what sucks or what you like or to ask any question you have
+* or just `write me <mailto:anton@tai.st?subject=Feedback%20on%20Taist>`_ to tell what sucks or what you like or to ask any question you have
 
 Contributing
 ------------
@@ -49,3 +49,13 @@ Contributing
 
 .. toctree::
    :maxdepth: 2
+   :titlesonly:
+
+   self
+   /tutorial/how_it_works
+   /tutorial/why_taist
+   /tutorial/hello_world
+   /guide/index
+
+   /support/Roadmap
+   /support/Release_notes

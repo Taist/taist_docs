@@ -16,3 +16,5 @@ Some of Taist advantages:
   * user provisioning
   * integration into target web applications UI
   * support of cross-origin requests and Content Security Policy
+
+.. toctree::
