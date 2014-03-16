@@ -29,7 +29,7 @@ Taist is like browser extensions on steroids:
 * much faster and easier development, deployment and management
 * lots of powerful features out of the box
 
-:doc:`Here <tutorial/why_taist>` you can read more about *Taist vs bare browser extensions*.
+:doc:`Here <tutorial/why_taist>` you can read more about Taist vs bare browser extensions.
 
 Quickstart
 ----------

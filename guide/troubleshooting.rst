@@ -1,4 +1,4 @@
 Troubleshooting addons
-----------------------
+======================
 
 .. toctree::
