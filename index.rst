@@ -34,7 +34,7 @@ Taist is like browser extensions on steroids:
 Quickstart
 ----------
 * First, create your :doc:`"Hello, world!" addon </tutorial/hello_world>`
-* Then turn it into real-life solution using :doc:`Taist API </api>`
+* Then turn it into real-life solution using Taist API features described in :doc:`Developer Guide </tutorial/guide>`
 * To make it easier, read our :doc:`/tutorial/Cookbook` and :doc:`Troubleshooting tips </tutorial/troubleshooting>`
 
 Support
