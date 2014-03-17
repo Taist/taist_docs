@@ -1,0 +1,12 @@
+.. code-block:: coffeescript
+
+  function() {
+    return {
+      start: function() {
+        alert("Hello world! This is my first addon!");
+      }
+    };
+  }
+
+.. toctree::
+  :hidden:

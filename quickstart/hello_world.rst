@@ -11,16 +11,9 @@ So we will start from creating the simplest addon locally.
 
 2. Writing addon code
 ---------------------
-Create a **.js** file anywhere locally and insert there following code::
+Create a **.js** file anywhere locally and insert there following code:
 
-  function() {
-    return {
-      start: function() {
-        alert("Hello world! This is my first addon!");
-      }
-    };
-  }
-
+.. include:: hello_world_source.include
 
 3. Enabling addon
 -----------------
@@ -39,6 +32,6 @@ Create a **.js** file anywhere locally and insert there following code::
 
 Success!
 --------
-You have created your first taist addon. Now :doc:`learn </guide/index>` how to add some useful logic to it.
+You have created your first taist addon. Now :doc:`learn </guide/guide_index>` how to add some useful logic to it.
 
 .. toctree::

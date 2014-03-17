@@ -19,7 +19,7 @@ How it works:
 * Taist uses **addons** - pieces of Javascript code created by users and hosted on our server.
 * Each addon implements single enhancement for a specific web application or website.
 * Our browser extension applies addons to their target websites when you visit them.
-* More details :doc:`here </tutorial/how_it_works>`
+* More details :doc:`here </quickstart/how_it_works>`
 
 Why Taist
 ---------
@@ -29,12 +29,12 @@ Taist is like browser extensions on steroids:
 * much faster and easier development, deployment and management
 * lots of powerful features out of the box
 
-:doc:`Here <tutorial/why_taist>` you can read more about Taist vs bare browser extensions.
+:doc:`Here <quickstart/why_taist>` you can read more about Taist vs bare browser extensions.
 
 Quickstart
 ----------
-* First, create your :doc:`"Hello, world!" addon </tutorial/hello_world>`
-* Then turn it into real-life solution using Taist API described in :doc:`Developer Guide </guide/index>`
+* First, create your :doc:`"Hello, world!" addon </quickstart/hello_world>`
+* Then turn it into real-life solution using Taist API described in :doc:`Developer Guide </guide/guide_index>`
 * To make development easier, read our :doc:`Troubleshooting tips </guide/troubleshooting>`
 
 Support
@@ -48,14 +48,11 @@ Contributing
 * Feel free to contribute to these docs on `Github <https://github.com/taist/taist_docs>`_
 
 .. toctree::
-   :maxdepth: 2
-   :titlesonly:
+  :maxdepth: 2
 
-   self
-   /tutorial/how_it_works
-   /tutorial/why_taist
-   /tutorial/hello_world
-   /guide/index
+  self
+  /quickstart/quickstart_index
+  /guide/guide_index
 
-   /support/Roadmap
-   /support/Release_notes
+  /support/Roadmap
+  /support/Release_notes

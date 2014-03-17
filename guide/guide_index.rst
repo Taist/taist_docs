@@ -2,4 +2,7 @@ Developer Guide
 ===============
 
 .. toctree::
-   troubleshooting
+  :titlesonly:
+
+  adding_js
+  troubleshooting
