@@ -5,6 +5,7 @@ Developer's Guide
   :titlesonly:
 
   writing_js
+  debugging_and_troubleshooting
   writing_css
   when_and_where
   dependencies
@@ -13,5 +14,4 @@ Developer's Guide
   original_logic_integration
 
 
-  debugging_and_troubleshooting
   publishing
