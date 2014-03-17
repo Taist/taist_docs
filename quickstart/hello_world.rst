@@ -27,11 +27,11 @@ Create a **.js** file anywhere locally and insert there following code:
 4. Running addon
 ----------------
 * go to `<http://google.com>`_ - you should receive an alert from your addon when page loads
-* open browser console - you should see several lines prefixed with '[Taist]' that report on successful addon launch
+* open browser console - you should see several lines prefixed with '[Taist]' that report on successful addon launch, including our message "Hello, console!"
 * if there is no Taist output, check that 'Target domain' is correct
 
 Success!
 --------
-You have created your first taist addon. Now :doc:`learn </guide/guide_index>` how to add some useful logic to it.
+You have created your first taist addon. Now :doc:`learn </guide/guide_index>` how it works in details and how to add some useful logic to it.
 
 .. toctree::

@@ -1,12 +1,19 @@
 .. code-block:: coffeescript
 
-  function() {
-    return {
-      start: function() {
-        alert("Hello world! This is my first addon!");
+  function init() {
+    var taistApi;
+
+    function doWork() {
+      alert("Hello, world! This is my first addon!");
+      taistApi.log("Hello, console!");
+    }
+
+    var addonEntry = {
+      start: function(_taistApi, entryPoint) {
+        taistApi = _taistApi;
+        doWork();
       }
     };
-  }
 
-.. toctree::
-  :hidden:
+    return addonEntry;
+  }

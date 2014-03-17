@@ -35,7 +35,7 @@ Quickstart
 ----------
 * First, create your :doc:`"Hello, world!" addon </quickstart/hello_world>`
 * Then turn it into real-life solution using Taist API described in :doc:`Developer Guide </guide/guide_index>`
-* To make development easier, read our :doc:`Troubleshooting tips </guide/troubleshooting>`
+* To make development easier, read our :doc:`Troubleshooting tips </guide/debugging_and_troubleshooting>`
 
 Support
 -------
