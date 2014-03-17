@@ -8,10 +8,10 @@ Target domain
 Target domain is required for any addon. It is done directly on addon development page in the field ``Target domain``.
 
 * set exact domain name to launch addon only on that domain, excluding any subdomains:
-
   * ``google.com`` will fire on ``google.com`` but not on ``drive.google.com``
   * ``drive.google.com`` will fire on ``drive.google.com`` only
-* add `.` before if you want to launch on any subdomain but only on subdomain: ``.somesaas.com`` will fire on ``client1.somesaas.com`` and ``client2.somesaas.com`` but not on ``somesaas.com`` itself.
+
+* prepend ``*`` if you want to launch on any domain with the same ending: ``*.somesaas.com`` will fire on ``client1.somesaas.com`` and ``client2.somesaas.com``, ``*somesaas.com`` will also fire on ``somesaas.com`` itself.
 
 Important: when are addons launched
 -----------------------------------
@@ -107,5 +107,4 @@ For sites that you should design addons to be applied from the very beginning on
 Then you can watch for hash change using ``taistApi.hash``:
 
 * ``taistApi.hash.onChange(callback)`` - runs ``callback(newHash, oldHash)`` when the hash part of the URL is changed.
-
 * ``taistApi.hash.when(pattern, callback)`` - runs ``callback()`` when hash changes and fits Regexp defined by ``pattern``.

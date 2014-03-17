@@ -7,7 +7,11 @@ Please, use ``taistApi.log(...)`` and ``taistApi.error(err)`` instead of ``conso
 
 * they add prefixes that help to identify your addon output, like ``[Taist] [DEVELOPED_ADDON]``
 * later they will be enhanced to send output to addon author if it is needed to get additional debug information, and to properly display errors for addon user
-* ``taistApi.error(err)`` checks ``err.halt`` - if it is ``true``, error is thrown stopping addon execution
+
+Additional features of ``taistApi.error(err)``:
+
+* it checks ``err.halt`` - if it is ``true``, ``new Error(err.message)`` is thrown stopping addon execution
+* in production mode it sends error info to Taist developers to help with addon troubleshooting
 
 Troubleshooting
 ---------------
@@ -22,7 +26,7 @@ Optional errors processing
 --------------------------
 As all errors from ``taistApi`` calls are always processed by Taist first, processing them in addons is not obligatory and ignoring them can simplify addon's logic.
 
-So there are two error processing modes regulated by flag ``tastApi.haltOnError`` (``false`` by default):
+So there are two error processing modes regulated by flag ``taistApi.haltOnError`` (``false`` by default):
 
 1. (default) Pass errors to addons: ``haltOnError = false``
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

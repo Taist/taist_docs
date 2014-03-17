@@ -8,10 +8,10 @@ Developer's Guide
   debugging_and_troubleshooting
   writing_css
   when_and_where
-  dependencies
   storing_data
   original_ui_integration
   original_logic_integration
 
-
+  third_party_services
+  dependencies
   publishing
