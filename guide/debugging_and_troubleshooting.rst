@@ -21,6 +21,7 @@ If you experience any problems or bugs during addon development, try checking:
 * extension background page's console: if addon still does not launch, open Taist extension background page (from Chrome's extensions page) and check its console: Taist writes there when it applies addons to any page
 * if nothing helps, send us a bug report - there's a link in our extension's popup
 
+.. _taistApi-haltOnError:
 
 Optional errors processing
 --------------------------

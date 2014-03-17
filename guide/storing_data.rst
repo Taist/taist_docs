@@ -23,6 +23,8 @@ User data on server
 * ``key``, ``value`` - scalar value or JSON-like object
 * ``function callback(error, result)`` - ``result`` is set only for ``get`` method
 
+.. _taistApi-companyData:
+
 Company data on server
 ----------------------
 ``taistApi.companyData`` allows to store data shared between employees of one company, members of one team or participants of one project.

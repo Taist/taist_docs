@@ -23,8 +23,3 @@ Arguments of ``start`` function:
   In ``doWork`` we see use of ``log`` function - it's a preferred way of :doc:`Debug output </guide/debugging_and_troubleshooting>`.
 
 * ``entryPoint`` is used for :doc:`fine-tuning </guide/when_and_where>` of what addon parts to launch on what pages of target site.
-
-Here we see launch of
-
-So launch your addon logic from here
-
