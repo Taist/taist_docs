@@ -17,7 +17,7 @@ Create a **.js** file anywhere locally and insert there following code:
 
 3. Enabling addon
 -----------------
-* click on icon again and then on *"Develop addon locally"* - new page will open
+* click on icon again and then on *"Local addon development"* - new page will open
 * page will ask for file access rights - give them as described and open the page again
 * switch addon ON
 * in field *'Target domain'* write *'google.com'*
