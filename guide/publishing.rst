@@ -12,7 +12,7 @@ Publishing first version
 
   * ``Addon id`` - unique human-readable name that helps identifying addons during development like ``github-add-checklists``
   * ``Title``
-  * ``Description``
+  * ``Description`` - addon description: **may contain HTML** - links (both just inline URLs and full-blown ``<a>`` tags), bold/italic text, lists, linebreaks, etc.
   * ``Site name`` - name of the target site or service, not its domain - ``Github``, ``Gmail``, ``Basecamp``, etc.
   * ``Target domain`` - the same as in local development
   * ``JS`` - contents of your addon's `.js` file
