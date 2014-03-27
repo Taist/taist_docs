@@ -1,6 +1,12 @@
 Release notes
 =============
 
+0.2.1 - 2014.03.27
+------------------
+
+* addons description can now :doc:`contain html </guide/publishing>`
+
+
 0.2 - 2014.03.17
 ----------------
 In this release we completely rewrote the whole project:
