@@ -12,7 +12,13 @@ Publishing first version
 
   * ``Addon id`` - unique human-readable name that helps identifying addons during development like ``github-add-checklists``
   * ``Title``
-  * ``Description`` - addon description: may contain links (both just inline URLs and full-blown ``<a>`` tags) and other HTML
+  * ``Short description`` - addon description
+
+    * may contain HTML
+    * links are parsed automatically
+  * ``Detailed description`` (optional) - detailed addon description, instructions, etc.
+
+    * may contain `Markdown <https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet>`_ for fancy formatting
   * ``Site name`` - name of the target site or service, not its domain - ``Github``, ``Gmail``, ``Basecamp``, etc.
   * ``Target domain`` - the same as in local development
   * ``JS`` - contents of your addon's `.js` file
@@ -20,7 +26,7 @@ Publishing first version
   * ``Config`` (optional) - contents of your addon's `.config` file
 
 * Hit "Save" - addon will be saved and the form changes to addon edit form
-* Go to `addons list <http://tai.st/app#/addons>` - your addon will be visible there for all users. Activate it with button to the right and check how it works
+* Go to `addons list <http://tai.st/app#/addons>`_ - your addon will be visible there for all users. Activate it with button to the right and check how it works
 
 Updating published addon
 ------------------------
