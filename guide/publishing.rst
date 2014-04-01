@@ -24,6 +24,9 @@ Publishing first version
   * ``JS`` - contents of your addon's `.js` file
   * ``CSS`` (optional) - contents of your addon's `.css` file
   * ``Config`` (optional) - contents of your addon's `.config` file
+  * ``Screenshots`` - screenshots showing addon in action
+
+    * crop will be offered during upload, so the easiest way is just to upload screenshots of the whole screen
 
 * Hit "Save" - addon will be saved and the form changes to addon edit form
 * Go to `addons list <http://tai.st/app#/addons>`_ - your addon will be visible there for all users. Activate it with button to the right and check how it works
