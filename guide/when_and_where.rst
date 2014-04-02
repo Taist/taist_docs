@@ -8,10 +8,15 @@ Target domain
 Target domain is required for any addon. It is done directly on addon development page in the field ``Target domain``.
 
 * set exact domain name to launch addon only on that domain, excluding any subdomains:
+
   * ``google.com`` will fire on ``google.com`` but not on ``drive.google.com``
   * ``drive.google.com`` will fire on ``drive.google.com`` only
 
-* prepend ``*`` if you want to launch on any domain with the same ending: ``*.somesaas.com`` will fire on ``client1.somesaas.com`` and ``client2.somesaas.com``, ``*somesaas.com`` will also fire on ``somesaas.com`` itself.
+
+* prepend ``*`` if you want to launch on any domain with the same ending: 
+
+  * ``*.somesaas.com`` will fire on ``client1.somesaas.com`` and ``client2.somesaas.com`` 
+  * ``*somesaas.com`` will also fire on ``somesaas.com`` itself.
 
 Important: when are addons launched
 -----------------------------------
