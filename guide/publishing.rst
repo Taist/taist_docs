@@ -7,28 +7,7 @@ You can share finished addon with your colleagues and any other Taist user by pu
 
 Publishing first version
 ------------------------
-* Go to `publishing form <http://tai.st/app#/addons/new>`_ (you can also go to it from extension - from addon development page)
-* Fill its fields:
-
-  * ``Addon id`` - unique human-readable name that helps identifying addons during development like ``github-add-checklists``
-  * ``Title``
-  * ``Short description`` - addon description
-
-    * may contain HTML
-    * links are parsed automatically
-  * ``Detailed description`` (optional) - detailed addon description, instructions, etc.
-
-    * may contain `Markdown <https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet>`_ for fancy formatting
-  * ``Site name`` - name of the target site or service, not its domain - ``Github``, ``Gmail``, ``Basecamp``, etc.
-  * ``Target domain`` - the same as in local development
-  * ``JS`` - contents of your addon's `.js` file
-  * ``CSS`` (optional) - contents of your addon's `.css` file
-  * ``Config`` (optional) - contents of your addon's `.config` file
-  * ``Screenshots`` - screenshots showing addon in action
-
-    * crop will be offered during upload, so the easiest way is just to upload screenshots of the whole screen
-
-* Hit "Save" - addon will be saved and the form changes to addon edit form
+* Fill and save `publishing form <http://tai.st/app#/addons/new>`_ (you can also go to it from extension - from addon development page)
 * Go to `addons list <http://tai.st/app#/addons>`_ - your addon will be visible there for all users. Activate it with button to the right and check how it works
 
 Updating published addon
