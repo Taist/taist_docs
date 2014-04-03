@@ -3,7 +3,7 @@ Communicating with third-party services
 
 ``taistApi.proxy`` provides methods to communicate with any third-party service without struggling with Same-origin policy or Content Security Policy:
 
-``taistApi.proxy.jQueryAjax(host, path, settings, callback(taistError, responseFromRemoteServer))`` works like `jQuery.ajax <http://api.jquery.com/jquery.ajax/>`:
+``taistApi.proxy.jQueryAjax(host, path, settings, callback(taistError, responseFromRemoteServer))`` works like `jQuery.ajax <http://api.jquery.com/jquery.ajax/>`_:
 
 **pseudocode of successful call**:
 
