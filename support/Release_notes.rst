@@ -1,14 +1,25 @@
 Release notes
 =============
 
-0.2.1 - 2014.03.27
-------------------
+2014.04.03
+----------
+updated ``tasitApi.proxy``:
 
+* it sends requests of any type - ``PUT``, ``DELETE``, etc.
+* it works correctly with non-JSONable formats like XML
+
+2014.04.01
+----------
+* addons now have detailed description that can :doc:`contain Markdown </guide/publishing>`
+* addons now can have screenshots
+
+2014.03.27
+----------
 * addons description can now :doc:`contain html </guide/publishing>`
 
 
-0.2 - 2014.03.17
-----------------
+2014.03.17
+----------
 In this release we completely rewrote the whole project:
 
 * wrote real docs using `Read the docs <http://readthedocs.org>`_ instead of single Google Doc
