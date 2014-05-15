@@ -1,11 +1,26 @@
-.. Taist documentation master file, created by
-   sphinx-quickstart on Tue Feb 11 23:41:24 2014.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 Introduction
 ============
 Taist is a browser extension to easily change any web application to tailor it to your specific business needs.
+
+Whom is it for:
+---------------
+
+* **business user** of cloud applications:
+
+  * point your fellow developer or contractor to Taist to implement custom features you need in cloud applications
+
+* **developer or product manager** in a cloud application vendor:
+
+  * quickly roll out and test new features;
+  * point your users to Taist as a tool to implement their feature requests
+
+* **developer or project manager** in a systems integrator implementing cloud applications:
+
+  * implement customization requests of your clients
+
+* **independent developer** that uses any cloud applications:
+
+  * add features you need to your favourite cloud applications
 
 What you can do with it:
 ------------------------
@@ -48,6 +63,9 @@ Contributing
 * Feel free to contribute to these docs on `Github <https://github.com/taist/taist_docs>`_
 
 .. toctree::
+  :hidden:
+  :includehidden:
+  :titlesonly:
   :maxdepth: 2
 
   self
