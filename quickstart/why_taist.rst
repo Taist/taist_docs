@@ -4,7 +4,7 @@ Everything you can do with Taist you can technically do without it by creating c
 
 But you will have to solve lots of tasks that are already solved in Taist - creating, deploying and administering browser extension, creating backend for data storage and server logic, user provisioning, etc.
 
-**Taist reduces your development and maintenance costs on orders of magnitude** by solving all the secondary tasks and allowing you to focus on writing business logic and giving tools to easily manage and maintain it.
+**Taist reduces your development and maintenance costs on orders of magnitude** by solving all the secondary tasks and allowing you to focus on business logic and giving tools to easily manage and maintain it.
 
 Some of Taist advantages:
 -------------------------

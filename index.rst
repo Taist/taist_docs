@@ -29,28 +29,15 @@ What you can do with it:
 * **automate repeatedly executed tasks** - solve them with less number of human actions
 * **manipulate several applications** - execute tasks using only one application instead of switching between several ones, manual copy-pasting data, etc.
 
-How it works:
--------------
-* Taist uses **addons** - pieces of Javascript code created by users and hosted on our server.
-* Each addon implements single enhancement for a specific web application or website.
-* Our browser extension applies addons to their target websites when you visit them.
-* More details :doc:`here </quickstart/how_it_works>`
-
-Why Taist
+Try Taist
 ---------
-Taist is like browser extensions on steroids:
+Follow these `instructions <http://www.tai.st/#quickstart>`_ to try existing addons
 
-* no extension development skills required
-* much faster and easier development, deployment and management
-* lots of powerful features out of the box
-
-:doc:`Here <quickstart/why_taist>` you can read more about Taist vs bare browser extensions.
-
-Quickstart
-----------
-* First, create your :doc:`"Hello, world!" addon </quickstart/hello_world>`
-* Then turn it into real-life solution using Taist API described in :doc:`Developer Guide </guide/guide_index>`
-* To make development easier, read our :doc:`Troubleshooting tips </guide/debugging_and_troubleshooting>`
+Further steps
+-------------
+* Read :doc:`how it works </quickstart/how_it_works>`
+* Create a :doc:`"Hello, world!" addon </quickstart/hello_world>`
+* Learn :doc:`why Taist is better </quickstart/why_taist>` than custom browser extensions
 
 Support
 -------
