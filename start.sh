@@ -1,3 +1,4 @@
+#!/bin/sh
 DOCS_ROOT=`dirname $0`
 
 cd $DOCS_ROOT
