@@ -31,7 +31,10 @@ What you can do with it:
 
 Try Taist
 ---------
-Follow these `instructions <http://www.tai.st/#quickstart>`_ to try existing addons
+1. Install our `Google Chrome extension <https://chrome.google.com/webstore/detail/taist/ncjnldelleedgcfhiohlnccpgfaigbef>`_
+2. `Activate addons <http://www.tai.st/addons>`_ that you want to try
+3. Visit a website with active addon.
+4. Result: website webpage will be changed according to addon's description
 
 Further steps
 -------------
