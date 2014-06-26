@@ -1,9 +1,15 @@
 Introduction
 ============
-Taist is a browser extension to easily change any web application to tailor it to your specific business needs.
+Taist is a browser extension and service to easily change any web application to tailor it to your specific business needs.
+
+Taist exists as a service for cloud application vendors that is plugged directly into cloud applications to make them extendable.
+
+Also it can be used via browser extension by any person to extend any cloud application even if its vendor does not use Taist as a service.
 
 Whom is it for:
 ---------------
+
+* vendors of cloud applications - for them we have separate, more business-oriented docs - just write to anton@tai.st that you are interested
 
 * **business user** of cloud applications:
 
