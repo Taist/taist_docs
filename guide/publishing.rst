@@ -7,8 +7,9 @@ You can share finished addon with your colleagues and any other Taist user by pu
 
 Publishing first version
 ------------------------
-* Fill and save `publishing form <http://tai.st/app#/addons/new>`_ (you can also go to it from extension - from addon development page)
-* Go to `addons list <http://tai.st/app#/addons>`_ - your addon will be visible there for all users. Activate it with button to the right and check how it works
+* Open "Local addon development" page from popup of Taist extension 
+* Press there "Publish addon"; a form to create new addon will open - fill it and save
+* Go to `addons list <http://tai.st/app#/addons>`_ - your addon will be visible there for all users. Activate it and check how it works
 
 Updating published addon
 ------------------------
