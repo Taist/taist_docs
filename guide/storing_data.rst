@@ -38,6 +38,7 @@ For example, addon for some CRM can use company name or id, addon for Github can
 * ``delete(key, callback)`` - deletes value; throws an error if value doesn't exist in storage
 
 **params**:
+
 * ``companyKey``, ``key``, ``value`` - scalar value or JSON-like object
 * ``function callback(error, result)`` - ``result`` is set only for ``get`` method
 
@@ -46,7 +47,7 @@ Working with parts of values
 ``taistApi.companyData`` also allows to change or retrieve parts of data:
 
 * ``getPart(key, partKey, callback)`` - gets field ``partKey`` of an object previously stored with key = ``key``
-* ``setPart(key, partKey, callback)`` - sets field ``partKey`` of an object previously stored with key = ``key``
+* ``setPart(key, partKey, value, callback)`` - sets field ``partKey`` of an object previously stored with key = ``key``
 
 Example:
 
