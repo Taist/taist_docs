@@ -4,7 +4,7 @@ Taist is a browser extension and service to easily change any web application to
 
 Taist exists as a service for cloud application vendors that is plugged directly into cloud applications to make them extendable.
 
-Also it can be used via browser extension by any person to extend any cloud application even if its vendor does not use Taist as a service.
+Also you can use it via browser extension to extend any cloud application not depending on its vendor - for example, boost up Gmail, Github or any other application you use.
 
 Whom is it for:
 ---------------
