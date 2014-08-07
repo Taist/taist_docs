@@ -9,9 +9,9 @@ Also you can use it via browser extension to extend any cloud application not de
 Whom is it for:
 ---------------
 
-* vendors of cloud applications - for them we have separate, more business-oriented docs - just write to anton@tai.st that you are interested
+* **vendors of cloud applications** - for them we have separate, more business-oriented docs - just write to anton@tai.st that you are interested
 
-* **business user** of cloud applications:
+* **business users** of cloud applications:
 
   * point your fellow developer or contractor to Taist to implement custom features you need in cloud applications
 
