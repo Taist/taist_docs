@@ -59,6 +59,6 @@ So callbacks are simpler and look like
 
 3. Setting processing mode
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-``taistApi.haltOnError`` can be changed in any moment - each ``taistApi`` call will use its value that was actual just before call was started
+``taistApi.haltOnError`` can be changed in any moment - each ``taistApi`` call will use its value that was actual just before the call was started
 
 .. toctree::
