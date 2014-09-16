@@ -114,4 +114,4 @@ Then you can watch for hash change using ``taistApi.hash``:
 .. _taistApi-hash-description:
 
 * ``taistApi.hash.onChange(callback)`` - runs ``callback(newHash, oldHash)`` when the hash part of the URL is changed.
-* ``taistApi.hash.when(pattern, callback)`` - runs ``callback()`` every time when hash changes and fits regexp defined by ``pattern``.
+* ``taistApi.hash.when(regexp, callback)`` - runs ``callback()`` every time when hash changes and fits ``regexp``. ``regexp`` can be given as a string or a RegExp object.
