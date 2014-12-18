@@ -7,7 +7,8 @@ Any enhancement to any website is called an **addon**.
 Each addon implements a single enhancement to a single web site and contains Javascript code, optional CSS code, and some configuration data.
 
 Addons are developed by users.
-Now addons code has to be stored on our server. Later we will add integration with popular code hostings.
+
+Addons can be published from public repositories e.g. `github <https://github.com>`_
 
 How it works
 ------------
