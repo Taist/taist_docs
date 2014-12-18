@@ -8,26 +8,26 @@ Manifest it is simple json file with some mandatory and some optional fields
 Mandatory fields
 ----------------
 
-* ``id`` -
+* ``id`` - unique name of an addon on Taist. It souldn't contain spaces and aother escape symbols
 
-* ``js`` -
+* ``js`` - relative path to .js source file
 
-* ``title`` -
+* ``title`` - addon title
 
-* ``siteName`` -
+* ``siteName`` - target site name. This property is used for grouping and filtering on `addons list <http://tai.st/app#/addons>`_
 
-* ``siteRegexp`` -
+* ``siteRegexp`` - regular expression to match :doc:`target domain name </guide/when_and_where>`
 
-* ``shortDescription`` -
+* ``shortDescription`` - string with short addon description
 
 Optional fields
 ---------------
 
-* ``css`` -
+* ``css`` - relative path to .css source file
 
-* ``description`` -
+* ``description`` - relative path to markdown file with full addon description
 
-* ``pases`` -
+* ``pages`` - array of :doc:`entry points </guide/when_and_where>`
 
 Manifest sample
 ---------------
