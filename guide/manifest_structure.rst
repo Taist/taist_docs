@@ -27,7 +27,7 @@ Optional fields
 
 * ``description`` - relative path to markdown file with full addon description
 
-* ``pages`` - array of :doc:`entry points </guide/when_and_where>`
+* ``pages`` - array of :ref:`entry points <entry-points>`
 
 Manifest sample
 ---------------

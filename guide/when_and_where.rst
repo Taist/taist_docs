@@ -78,7 +78,12 @@ Let's look at example:
     ]
   }
 
-Entrypoints are contained in object ``pages`` - there are two records with fields:
+.. _entry-points:
+
+Entry points
+------------
+
+Entry points are contained in object ``pages`` - there are two records with fields:
 
 * ``path`` - a string representation of a Regexp
 * ``entryPoint`` - a string name of current entryPoint
