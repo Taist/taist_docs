@@ -1,6 +1,11 @@
 Release notes
 =============
 
+2014.12.2X
+----------
+* deploy addons from github public repositories
+* added addons manifest processing 
+
 2014.04.03
 ----------
 updated ``tasitApi.proxy``:
