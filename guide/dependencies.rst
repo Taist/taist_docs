@@ -6,7 +6,6 @@ Addon dependencies are described here
 jQuery
 ------
 jQuery is always available for addons: if it is not included in original website code, it is injected before addons
-! jQuery - автоматически, если нет на сайте
 
 Other Javascript libraries
 --------------------------

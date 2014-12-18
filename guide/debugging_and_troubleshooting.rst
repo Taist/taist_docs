@@ -17,7 +17,7 @@ Troubleshooting
 ---------------
 If you experience any problems or bugs during addon development, try checking:
 * target page console: Taist reports all errors appeared while addon launch and work there, including errors in ``taistApi`` calls
-* addon development page: if addon is just not applied to target page, go to addon development page, check addon settings and hit ``Save`` one more time - maybe some warnings will appear;
+* addon development page: if addon is just not applied to target page, check manifest settings, go to addon development page and switch on the addon one more time - maybe some warnings will appear;
 * extension background page's console: if addon still does not launch, open Taist extension background page (from Chrome's extensions page) and check its console: Taist writes there when it applies addons to any page
 * if nothing helps, send us a bug report - there's a link in our extension's popup
 

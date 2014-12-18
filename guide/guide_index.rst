@@ -4,6 +4,7 @@ Developer's Guide
 .. toctree::
   :titlesonly:
 
+  manifest_structure
   writing_js
   when_and_where
   debugging_and_troubleshooting

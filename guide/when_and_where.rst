@@ -5,18 +5,15 @@ You can manage where (on what domains and pages) and when (on what special event
 
 Target domain
 -------------
-Target domain is required for any addon. It is done directly on addon development page in the field ``Target domain``.
+Target domain is required for any addon. It should be defined in the **siteRegexp** field of the addon manifest.
 
-* set exact domain name to launch addon only on that domain, excluding any subdomains:
+Use an regular expression to match target host name
 
-  * ``google.com`` will fire on ``google.com`` but not on ``drive.google.com``
-  * ``drive.google.com`` will fire on ``drive.google.com`` only
+* ``google.com`` will fire on ``google.com`` and any subdomain
+* ``.google.com`` will fire on any subdomain of ``google.com``
+* ``^(?!www\.).*google.com`` will fire on any subdomain of ``google.com`` except ``www.google.com``
 
-
-* prepend ``*`` if you want to launch on any domain with the same ending: 
-
-  * ``*.somesaas.com`` will fire on ``client1.somesaas.com`` and ``client2.somesaas.com`` 
-  * ``*somesaas.com`` will also fire on ``somesaas.com`` itself.
+Dots in samples above mean 'any character' if you want to use read dot symbol just escape it ``\.google\.com``
 
 Important: when are addons launched
 -----------------------------------
@@ -35,7 +32,7 @@ Sites that reload pages during navigation
 -----------------------------------------
 
 For such sites you can use **entrypoints** to limit your addon to some specific pages and split its logic for different pages.
-Entrypoints are set using JSON in ``.config`` file - it should be located in the same folder with ``.js`` file and have the same name.
+Entrypoints are set as ``pages`` property in ``.manifest`` file.
 
 Let's look at example:
 
@@ -64,7 +61,7 @@ Let's look at example:
   }
 
 
-``.config`` file:
+``.manifest`` file:
 
 .. code-block:: javascript
 
