@@ -1,42 +1,27 @@
 Hello, world!
 =============
 
-Usual way is developing addon locally and then publishing it to our server.
+The usual way is developing addon locally and then publishing it to our server.
 So we will start from creating the simplest addon locally.
 
-1. Installing extension
------------------------
-* `install <https://chrome.google.com/webstore/detail/taist/ncjnldelleedgcfhiohlnccpgfaigbef>`_ our extension (now only Google Chrome is supported)
-* log in by clicking on extension icon and then on *"log in"*
-
-2. Creating .manifest file
---------------------------
-Create a **.manifest** file anywhere locally and insert there following code:
-
-.. include:: hello_world_manifest.include
-
-3. Writing addon code
+1. Clone `addon repository <https://github.com/Taist/taist_hello_world.git>`_ from Github
+-----------------------------------------------------------------------------------------
+2. Install extension:
 ---------------------
-Create a **hello_world.js** file at the same folder as the manifest file and insert there following code:
+* `Install <https://chrome.google.com/webstore/detail/taist/ncjnldelleedgcfhiohlnccpgfaigbef>`_ our Chrome extension
+* Click on the extension icon to log in
 
-.. include:: hello_world_source.include
+3. Activate addon:
+------------------
+* On the `extensions page <chrome://extensions/?id=ncjnldelleedgcfhiohlnccpgfaigbef>`_ enable permission ``Allow access to file URLs`` - it is needed to load addon files from local filesystem
+* Click on extension icon again and then on *"Local addon development"*
+* Turn addon ON
+* Press ``Choose file`` and a new tab with your file system will open; use it to find and choose the file ``hello_world.manifest`` in the addon repository folder
 
-4. Enabling addon
------------------
-* click on icon again and then on *"Local addon development"* - new page will open
-* page will ask for file access rights - give them as described and open the page again
-* switch addon ON
-* press *'Choose file'* and new window will open showing your root folder - use it to find and choose the .manifest file you created; (it will hide files with other extensions for your convenience)
-* addon should be loaded successfuly and show some warnings for missing optional files - ignore them for now.
-
-5. Running addon
-----------------
-* go to `<https://github.com>`_ - you should receive an alert from your addon when page loads
-* open browser console - you should see several lines prefixed with '[Taist]' that report on successful addon launch, including our message "Hello, console!"
-* if there is no Taist output, check that **siteRegexp** in the **manifest** is correct
-
-Success!
---------
-You have created your first taist addon. Now :doc:`learn </guide/guide_index>` how it works in details and how to add some useful logic to it.
+4. Success!
+-----------
+* Visit `Github <https://github.com>`_: the page background should become dark and a ``Hello, world!`` alert should appear
+* open browser console - you should see several lines prefixed with ``[Taist]`` that report on successful addon launch, including addon's message ``Hello, console!``
+* You have created your first taist addon. Now :doc:`learn </guide/guide_index>` how it works and how to add some useful functionality to it.
 
 .. toctree::

@@ -1,6 +1,6 @@
 Why Taist
 =========
-Everything you can do with Taist you can technically do without it by creating custom browser extensions.
+Everything you can do with Taist you can technically do without it by creating custom browser extensions or GreaseMonkey scripts.
 
 But you will have to solve lots of tasks that are already solved in Taist - creating, deploying and administering browser extension, creating backend for data storage and server logic, user provisioning, etc.
 
