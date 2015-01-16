@@ -1,6 +1,6 @@
 Introduction
 ============
-Taist is a tool to add any additional functionality to any cloud application
+Taist is a tool to add custom functionality to cloud applications
 
 Taist allows to create **addons** - bundles of Javascript code that are injected to a target application's web page via our `browser extension <https://chrome.google.com/webstore/detail/taist/ncjnldelleedgcfhiohlnccpgfaigbef>`_
 
