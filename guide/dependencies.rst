@@ -1,14 +1,16 @@
 Dependencies
 ============
 
-Addon dependencies are described here
-
 jQuery
 ------
 jQuery is always available for addons: if it is not included in original website code, it is injected before addons
 
 Other Javascript libraries
 --------------------------
-We are :doc:`currently working </support/Roadmap>` on easy adding of any libraries in addons.
+Now external libraries have to be bundled with the addon using tools like Browserify.
+We are preparing a 'bootstrap' addon that uses this approach.
 
-Until then you can either include them directly into addon's Javascript or load from addon when after is launched.
+Other addons
+------------
+We are planning to introduce addon dependencies.
+For now you can export addon's functionality via global variables that can be accessed by other addons.

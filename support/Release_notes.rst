@@ -1,14 +1,17 @@
 Release notes
 =============
 
-2014.12.2X
+2014.01.16
 ----------
-* deploy addons from github public repositories
-* added addons manifest processing 
+(Main changes after the development resume)
+* Addons are now loaded from Github or any other external repositories
+* The website performance is greatly improved
+* New extension UI for working with local addon
+* Addon structure changed to use root .manifest file
 
 2014.04.03
 ----------
-updated ``tasitApi.proxy``:
+updated ``taistApi.proxy``:
 
 * it sends requests of any type - ``PUT``, ``DELETE``, etc.
 * it works correctly with non-JSONable formats like XML
