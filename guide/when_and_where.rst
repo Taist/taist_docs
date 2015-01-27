@@ -31,8 +31,8 @@ So there are different approaches on managing addons for :ref:`sites-reloading-p
 Sites that reload pages during navigation
 -----------------------------------------
 
-For such sites you can use **entrypoints** to limit your addon to some specific pages and split its logic for different pages.
-Entrypoints are set as ``pages`` property in ``.manifest`` file.
+For such sites you can use **entry points** to limit your addon to some specific pages and split its logic for different pages.
+Entry points are set as ``pages`` property in ``.manifest`` file.
 
 Let's look at example:
 
