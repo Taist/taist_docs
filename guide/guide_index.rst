@@ -6,7 +6,7 @@ Developer's Guide
 
   manifest
   writing_js
-  when_and_where
+  choosing_pages
   debugging_and_troubleshooting
   writing_css
   storing_data

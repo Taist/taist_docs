@@ -29,15 +29,19 @@ A manifest example:
 
 Manifest description (**mandatory** fields are in bold):
 
-* **id** - Unique name of an addon. Should consist of lowercase letters, digits and hyphens. Usually contains target application's name and addon purpose.
+* **id** - unique name of an addon. Should consist of lowercase letters, digits and hyphens. Usually contains target application's name and addon purpose.
 
-* **js** - Relative path to addon's Javascript file from the folder that contains the manifest
+* **js** - relative path to addon's Javascript file from the folder that contains the manifest
 
-* **title** - Addon title
+* **title** - addon title
 
-* **siteName** - Name of the target application or website. It is also used to group addons for the same applications in `addons list <http://tai.st/app#/addons>`_
+* **siteName** - name of the target application or website. It is also used to group addons for the same applications in `addons list <http://tai.st/app#/addons>`_
 
-* **siteRegexp** - Regular expression to match :doc:`target domain name </guide/when_and_where>`.
+* **siteRegexp** - regular expression to match the domain name of a target website. Typical use cases:
+
+  * **a single common domain** is used for all the customers of the application - just use plain text like ``drive.google.com``
+  * **a separate subdomain for every customer** is used - just add ``.`` in the beginning: ``.someapp.com`` will run on ``customer1.someapp.com`` and ``customer2.someapp.com`` but will skip the marketing website `someapp.com`
+  * **in other cases** just use an appropriate regular expression
 
 * **shortDescription** - Short addon description in plain text
 
@@ -45,6 +49,6 @@ Manifest description (**mandatory** fields are in bold):
 
 * ``description`` - relative path to a file with detailed addon's description. `Markdown <https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet>`_ can be used in it.
 
-* ``pages`` - array of entry points to :doc:`limit a set of pages to launch an addon on </guide/when_and_where>`. Is not set in the example above as it can be used only for non-single page applications.
+* ``pages`` - array of entry points to :doc:`limit a set of pages to launch an addon on </guide/choosing_pages>`. It is not set in the example above as it can be used only for non-single page applications.
 
 .. toctree::

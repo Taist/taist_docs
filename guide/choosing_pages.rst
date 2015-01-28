@@ -1,28 +1,16 @@
-Managing when and where to launch addons
-========================================
-
-You can manage where (on what domains and pages) and when (on what special events) to launch your addon logic.
-
-Target domain
--------------
-Target domain is required for any addon. It should be defined in the **siteRegexp** field of the addon manifest.
-
-Use an regular expression to match target host name
-
-* ``google.com`` will fire on ``google.com`` and any subdomain
-* ``.google.com`` will fire on any subdomain of ``google.com``
-* ``^(?!www\.).*google.com`` will fire on any subdomain of ``google.com`` except ``www.google.com``
-
-Dots in samples above mean 'any character' if you want to use read dot symbol just escape it ``\.google\.com``
+Choosing specific pages to launch addons on
+===========================================
+You can limit addons launch to specific pages of a website.
 
 Important: when are addons launched
 -----------------------------------
-**Addons are launched on every DOM load** - it means, after user navigates to new page or reloads current one, or navigates back/forward in history to other page, or reopens previously closed page.
+**Addons are launched on every DOM load** - it means, after the user navigates to a new page or reloads the current one, or navigates back/forward in history to other page, or reopens a previously closed page. In all these cases a fresh new page is loaded in the browser and every addon that fits it is relaunched on it.
 
-**Addons are not launched on**:
+After an addon is launched on the page it will not be launched again (its ``start`` function will not be called).
+So **addons are not launched on**:
 
 * *hash change* - when just hash changes, page's DOM is not reloaded; if addon was already launched on this page it remains active, so no need in injecting and launching it again.
-* *programmatic manipulation with history* - if ``history`` object is modified programmatically without actual page change, previous addons also remain on the page so no need to launch them again.
+* *programmatic manipulation with history* - if ``window.history`` object is modified programmatically without actual page change, previous addons also remain on the page so no need to launch them again.
 
 So there are different approaches on managing addons for :ref:`sites-reloading-pages` and :ref:`fully-dynamic-sites` (usually single-page applications)
 
@@ -87,7 +75,6 @@ Entry points are contained in object ``pages`` - there are two records with fiel
 
 * ``path`` - a string representation of a Regexp
 * ``entryPoint`` - a string name of current entryPoint
-
 
 On a new page load, entryPoints are iterated in the order they are given in config:
 
