@@ -3,7 +3,8 @@ Dependencies
 
 jQuery
 ------
-jQuery is always available for addons: if it is not included in original website code, it is injected before addons
+jQuery is always available for addons: if it is not included in original website code, it is injected before addons. 
+It is available as ``window.$`` (or as ``window.jQuery`` if ``$`` is used by the original website code).
 
 Other Javascript libraries
 --------------------------
