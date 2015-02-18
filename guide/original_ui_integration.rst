@@ -6,7 +6,7 @@ Waiting for specific elements to render
 ---------------------------------------
 The most important and heavily used is ``taistApi.wait.elementRender``:
 
-``elementRender(elementSelector, callback)`` - fires a callback every time when a new element appears that matches ``elementSelector``
+``elementRender(elementSelector, callback)`` - fires the ``callback`` every time when a new element appears that matches ``elementSelector``. If such elements exist on the page already, ``callback`` will also be fired for each of them
 
 **params**:
 
