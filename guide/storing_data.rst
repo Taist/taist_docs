@@ -12,7 +12,7 @@ User data locally
 * ``delete(key)`` - deletes value
 
 User and company data on server
--------------------------------t
+-------------------------------
 Data can also be stored on Taist server: 
 
 * user-level data is processed via ``userData``
