@@ -4,6 +4,7 @@ Publishing addons
 You can publish your addon for other Taist users.
 
 **! Important**: now all published addons can be used by anyone for free; we are working on other access modes:
+
 * **paid addons** that can be used by anybody for a recurring payment
 * **private addons** that can be used only by a specific company
 
