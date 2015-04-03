@@ -13,8 +13,9 @@ So we will start from creating the simplest addon locally.
 
 3. Activate addon:
 ------------------
-* On the `extensions page <chrome://extensions/?id=ncjnldelleedgcfhiohlnccpgfaigbef>`_ enable permission ``Allow access to file URLs`` - it is needed to load addon files from local filesystem
 * Click on extension icon again and then on *"Local addon development"*
+* Follow instructions there to give file access permissions
+* Open "Local addon development" page again
 * Turn addon ON
 * Press ``Choose file`` and a new tab with your file system will open; use it to find and choose the file ``hello_world.manifest`` in the addon repository folder
 
