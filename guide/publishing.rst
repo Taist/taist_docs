@@ -1,12 +1,11 @@
 Publishing addons
 =================
 
-You can publish your addon for other Taist users.
+You can publish your addon for other Taist users. There are several types of addons:
 
-**! Important**: now all published addons can be used by anyone for free; we are working on other access modes:
-
-* **paid addons** that can be used by anybody for a recurring payment
-* **private addons** that can be used only by a specific company
+* **free** - can be used by anyone for free;
+* **paid** - can be used by anyone by subscription - X dollars per user per month; contact us at anton@tai.st for more details
+* **private** - can be used only by a single company specified by addon author; contact us at anton@tai.st for more details
 
 Publishing for the first time
 -----------------------------
