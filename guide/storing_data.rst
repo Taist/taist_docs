@@ -25,6 +25,7 @@ Data can also be stored on Taist server:
 * ``delete(key, callback)`` - deletes ``value``; throws an error if there is no data stored with given ``key``
 
 **params**:
+
 * ``key``, ``value`` - scalar value or JSON-like object
 * ``function callback(error, result)`` - ``result`` is set only for ``get`` method
 
