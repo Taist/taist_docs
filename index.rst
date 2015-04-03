@@ -41,7 +41,6 @@ Next steps:
 Support
 -------
 * Please, feel free to ask any questions, suggest new features and report bugs using `Github issues <https://github.com/Taist/taist_docs/issues>`_
-* And here are :doc:`/support/Release_notes` and :doc:`/support/Roadmap`
 * or just `write me <mailto:anton@tai.st?subject=Feedback%20on%20Taist>`_ to tell what sucks or what you like or to ask any question you have
 
 .. toctree::
