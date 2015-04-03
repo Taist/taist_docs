@@ -1,9 +1,9 @@
 Release notes
 =============
 
-2014.01.16
+2015.01.16
 ----------
-(Main changes after the development resume)
+
 * Addons are now loaded from Github or any other external repositories
 * The website performance is greatly improved
 * New extension UI for working with local addon
