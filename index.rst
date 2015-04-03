@@ -53,8 +53,3 @@ Support
   self
   /quickstart/quickstart_index
   /guide/guide_index
-
-  /advanced/advanced_index
-
-  /support/Roadmap
-  /support/Release_notes
