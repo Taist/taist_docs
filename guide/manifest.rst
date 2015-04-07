@@ -45,10 +45,10 @@ Manifest description (**mandatory** fields are in bold):
 
 * **shortDescription** - Short addon description in plain text
 
-* ``css`` - relative path to addon's CSS file
+* **css** - relative path to addon's CSS file
 
-* ``description`` - relative path to a file with detailed addon's description. `Markdown <https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet>`_ can be used in it.
+* **description** - relative path to a file with detailed addon's description. `Markdown <https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet>`_ can be used in it.
 
-* ``pages`` - array of entry points to :doc:`limit a set of pages to launch an addon on </guide/choosing_pages>`. It is not set in the example above as it can be used only for non-single page applications.
+* **pages** - array of entry points to :doc:`limit a set of pages to launch an addon on </guide/choosing_pages>`. It is not set in the example above as it can be used only for non-single page applications.
 
 .. toctree::
