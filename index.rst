@@ -13,7 +13,7 @@ What you can do with Taist:
 
 Why create addons with Taist
 ----------------------------
-We aim to make addons development an important part of the whole cloud software industry, so we create Taist as a powerful platform that helps will help you in every aspect of the addon development.
+We aim to make addons development an important part of the whole cloud software industry, so we create Taist as a powerful platform that helps you in every aspect of the addon development.
 
 Now:
 ~~~~
